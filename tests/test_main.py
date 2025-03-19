@@ -1,6 +1,8 @@
-from yt_uv import add, multiply
+from yt_uv import add, multiply, hello
 
-# from yt_uv import *
+
+def test_hello():
+    assert hello() == "Hello from yt-uv!"
 
 
 def test_add():
